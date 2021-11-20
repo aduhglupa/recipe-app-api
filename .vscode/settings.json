@@ -1,0 +1,13 @@
+{
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": false,
+    "python.linting.ignorePatterns": [
+        "**/site-packages/**/*.py",
+        ".vscode/*.py",
+        "migrations",
+        "__pycache__",
+        "manage.py",
+        "settings.py"
+    ],
+    "python.formatting.autopep8Args": ["--max-line-length", "79", "--experimental"]
+}
